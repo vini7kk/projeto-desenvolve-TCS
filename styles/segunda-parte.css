@@ -1,0 +1,15 @@
+.segunda-parte {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.burguer {
+    width: 600px;
+    height: auto;
+}
+h1 {
+    font-family: "Poppins";
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 10rem;
+}
