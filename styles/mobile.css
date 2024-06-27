@@ -9,6 +9,50 @@
     transition: transform 0.3s; 
 }
 @media  (max-width: 1280px) {
+    /*primeira seção*/
+.logo {
+    margin-top: 1.5rem;
+}
+.primeira-parte {
+   display: none;
+}
+ 
+    /*segunda seção*/
+.segunda-parte {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;  
+    justify-content: space-around;
+    align-items: center;
+}
+h1 {
+    padding-right: 10rem;
+}
+h1 {
+    font-family: "Ruda", sans-serif;
+    font-weight: bold;
+    margin-left: 10rem;
+    font-size: 3rem;
+}
+p {
+    font-family: "Ruda", sans-serif;
+    font-weight: lighter;
+    margin-left: 7rem;
+    font-size: 0.8rem;
+    margin-right: 5rem;
+}
+    
+    
+.burguer {
+    max-width: 60%;
+    opacity: 90%;
+}
+.button {
+    margin-left: 13rem;
+    margin-bottom: 2rem;
+}
+    
+}
                                                 /*Primeira parte*/
 section {
     min-height: 65vh;
@@ -57,16 +101,16 @@ li {
 }
 li.login-btn  {
     margin-left: -1rem;
-    background: linear-gradient(to right, #0e0b2b, #000000);
+    background: linear-gradient(to right, #2b200b, #000000);
 }
 .nav-list {
     z-index: 1;
     position: absolute;
     top: 0;
     left: 0;
-    width: 90vw;
+    width: 100vw;
     height: 120%;
-    background: linear-gradient(to right, #000000,black, black, #080324);
+    background-color: black;
     background-size: 200% 200%;
     animation: gradientChange 5s ease infinite;
     clip-path: circle(100px at 90% -15%);
@@ -92,7 +136,7 @@ li.login-btn  {
     
     /* Estilos ativos */
 .nav.active .nav-list {
-    clip-path: circle(1500px at 90% -15%);
+    clip-path: circle(1900px at 90% -15%);
     pointer-events: all;
 }
     
